@@ -1,0 +1,21 @@
+Inputs:
+
+currentAge: The user's current age.
+retirAge: The age at which the user wants to retire.
+Outputs:
+
+yearsUntilRetirement: The number of years until retirement.
+retirementYear: The year in which the user can retire.
+Process:
+
+Prompt the user for currentAge. Check validation.
+Prompt the user for retirAge. Check validation.
+Calculate yearsUntilRetirement as retirAge - currentAge.
+Calculate currentYear as the current calendar year (e.g., 2023).
+Calculate retirementYear as currentYear + yearsUntilRetirement.
+Display the result as follows:
+"You have yearsUntilRetirement years left until you can retire."
+"It's currentYear, so you can retire in retirementYear."
+This algorithm is quite straightforward. It takes the user's input, calculates the years until retirement, and then calculates the year in which the user can retire. The result is displayed in a simple and easy-to-understand format.
+
+Please note that you may want to handle some additional considerations or constraints, such as verifying that the user's input is valid (e.g., ensuring that currentAge is less than retirAge) and potentially accounting for the user's birthdate to get a more precise current age
